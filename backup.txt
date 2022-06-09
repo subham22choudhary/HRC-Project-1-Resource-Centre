@@ -1,0 +1,81 @@
+<?php
+/*
+Template Name: RC Practice
+*/
+
+get_header();
+
+?>
+
+
+<style>
+/* Second-fold css */
+    .grid-item {
+        width: 25%;
+        padding: 25px;
+        }
+
+
+        /* third-fold css */
+        .section{
+          margin-top: 50px;
+    margin-bottom: 50px;
+        }
+    
+}
+</style>
+
+
+<div class="button-group filter-button-group">
+  <button data-filter="*">show all</button>
+  <button data-filter=".ragdoll">metal1</button>
+  <button data-filter=".maine-coon">metal2</button>
+  <button data-filter=".babadoo">metal3</button>
+</div>
+
+<div class="grid">
+<?php
+
+$cats = new WP_Query(['post_type'=>'cats']);
+
+if ($cats->have_posts()) : while ($cats->have_posts()) : $cats->the_post() ;
+
+?>
+
+<a class="grid-item <?php $categories = get_the_category(get_the_id ());
+    foreach ($categories as $category) {
+         echo $category->slug.' ';
+    } ?>" href="<?php the_permalink(); ?>">
+
+
+<div class="card card-design">
+<img src="<?php the_field('image'); ?>" class="img-fluid" alt="Responsive image">
+<h4 class="p-4"><?php the_title(); ?></span>
+</div>
+</a>
+
+<?php endwhile; endif; ?>
+
+</div>
+
+
+
+<section class=" third-fold section">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center">
+                <h2>FinTech Advocacy Network</h2>
+                <p>Now more than ever we wanted a platform to allow finance professionals in the credit and accounts
+                    receivables community to come together and safely interact and support each other. If you would like
+                    to share your thought leadership with industry peers,</p>
+                <p>sign up for the <strong><a href="https://www.highradius.com/fintech-advocacy-network/">FinTech
+                            Advocacy Network</a></strong> and learn about upcoming opportunities to participate in
+                    various types of engagements.</p>
+            </div>
+            <div class="row d-flex justify-content-center"><button type="button"
+                    class="btn btn-outline-danger">Danger</button></div>
+        </div>
+    </section>
+
+
+
+<?php get_footer(); ?>
