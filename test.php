@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: RC Practice
+Template Name: RCC-1
 */
 
 get_header();
@@ -20,6 +20,15 @@ get_header();
 
 html {
   scroll-behavior: smooth;
+}
+
+a.text-size {
+    font-size: 14px;
+}
+
+li.footer-parent {
+    margin-bottom: 12px;
+    font-weight: 600;
 }
 
 
@@ -149,7 +158,7 @@ html {
         left: 4px;
         background-color: transparent;
       }
-      .card-info{
+      /* .card-info{
         position: absolute;
         bottom: 0;
         left: 0;
@@ -173,7 +182,7 @@ html {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
-      }
+      } */
       .card-title{
         color: #666666;
         font-size: 14px;
@@ -342,14 +351,15 @@ html {
             font-size: 12px;
         }
 
-        a.txt-colr:hover {
+        a:hover {
             color: #ffffff;
             text-decoration: none;
         }
 
 
-        a.txt-colr {
+        a {
     color: #ffffff;
+    text-decoration: none;
 }
 
         .copyright {
@@ -401,6 +411,15 @@ element.style {
     left: 67px;
 }
 
+.scrollbtn {
+    display: none !important;
+}
+
+.crd-bx {
+    margin-top: 40px;
+}
+
+
 
 }
 
@@ -419,7 +438,13 @@ element.style {
     left: 38px;
 }
 
+.scrollbtn {
+    display: none !important;
 }
+
+
+}
+
 
 /* Tab-to-PC */
 
@@ -438,7 +463,7 @@ element.style {
 
 .animated{
   width: 400px;
-  height: 221px;
+  height: auto;
   background-position: center;
   background-size: cover;
 }
@@ -456,7 +481,7 @@ element.style {
 @-webkit-keyframes fadeInLeft {
   0% {
       opacity: 0;
-      -webkit-transform: translateX(-50px);
+      -webkit-transform: translateX(-200px);
   }
   100% {
       opacity: 1;
@@ -478,7 +503,7 @@ element.style {
 @-webkit-keyframes fadeInRight {
   0% {
       opacity: 0;
-      -webkit-transform: translateX(50px);
+      -webkit-transform: translateX(200px);
   }
   100% {
       opacity: 1;
@@ -488,12 +513,59 @@ element.style {
 
 
 
-.section-2 {
+/* .section-2 {
     margin-bottom: 120px;
+} */
+
+
+
+.arrow-sign {
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 18px;
+            background-repeat: no-repeat;
+            background-size: 20px;
+            background-image: url(https://cdn.highradius.com/wp-content/themes/trifecta/assets/images/arrow-right.svg);
+            background-position: right center;
+            padding-right: 30px;
+        }
+
+        a {
+            transition: all 0.3s ease;
+            /* color: #fc7500; */
+            text-decoration: none;
+        }
+
+        .arrow-sign:hover {
+            padding-right: 35px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #fc7500;
+        }
+
+        .click-switch-2 {
+    background: #FC7500;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 25px;
+    text-transform: uppercase;
+    border: 2px solid #FC7500;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-right: 49px;
+}
+
+
+.click-btn {
+    cursor: pointer;
 }
 </style>
 
-<section class="first-fold section-2">
+<section class="first-fold">
         <div class="container">
         <div class="title">
             <h1 class="global-orange">Order to Cash Knowledge Center</h1>
@@ -534,14 +606,17 @@ element.style {
                 </div>
             </div>
 
+
+
             <div class="col-lg-6 col-sm-12 col-md-5 animated fadeInRight">
                 <h2 class="global-grey">Trending Content</h2>
                 <a href="https://radiance.highradius.com/" target="_blank">
                     <img src="https://cdn-resources.highradius.com/resources/wp-content/uploads/2022/01/Radiance_HighRadius-Resource-Section_Banner_1-2.jpg" class="img-fluid" style="border-radius:20px;">
                 </a>
             </div>
-          
-            <div class="col-12 d-flex justify-content-center pb-3">
+          <a href="https://www.highradius.com/resources/" class="arrow-sign global-orange">EXPLORE OTHER SESSIONS</a>
+
+            <div class="col-12 d-flex justify-content-center pb-3 scrollbtn">
                 <a href="#button-group-1">
                     <img src="https://cdn-resources.highradius.com/resources/wp-content/themes/Trifecta-Resources/images/scroll-icon.png" alt="Scroll" class="scroll">
                 </a>
@@ -559,11 +634,11 @@ element.style {
 
     <!-- phase-2 filter -->
 
-    <div>
+    <div id="button-group-1">
         <h2>What are you looking for?</h2>
-        <h4>Filter by Type:</h4>
+        <h4 class="global-grey">Filter by Type:</h4>
     </div>
-<div class="button-group filter-button-group " id="button-group-1">
+<div class="button-group filter-button-group " >
   <button data-filter="*" class="btn-2">All</button>
   <button data-filter=".blogs" class="btn-2">Blogs</button>
   <button data-filter=".ebooks" class="btn-2">Ebook</button>
@@ -572,7 +647,7 @@ element.style {
 
 
 <div class="row pb-3 my-3">
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-8 col-md-12 col-sm-12 animated fadeInLeft">
                     <div class="container">
                         <div class="row feature-card">
                             <div class="col-md-6 col-12 featured-img-card">                            
@@ -584,14 +659,14 @@ element.style {
                                      </h4>
                                 </div>
                                 <div style="padding: 24px;">
-                                    <a class="btn" href="#">Read Now</a>
+                                    <a class="click-switch-2" href="#">Read Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-12 col-sm-12">
+                <div class="crd-bx col-lg-3 col-md-12 col-sm-12 animated fadeInRight">
                    <div class="container offset-lg-5 d-flex justify-content-center ">
                        <div class="box text-center">
                          <p>Elevate your process
@@ -622,7 +697,7 @@ if ($cats->have_posts()) : while ($cats->have_posts()) : $cats->the_post() ;
 
     <div class="card-design ">
 
-<span class="card-category-1"><?php $cat = get_the_category(); echo $cat[0]->cat_name; ?></span></div>
+<span class="card-category-1 global-orange"><?php $cat = get_the_category(); echo $cat[0]->cat_name; ?></span></div>
 <div class="image-design-1 card-image-1 d-flex justify-content-center"><img src="<?php the_field('image'); ?>" class="img-fluid" alt="Responsive image"></div>
 <h6 class="d-flex justify-content-center mt-5 mb-3 card-title"><?php the_title(); ?></h6>
 <span class="click-switch card-button d-flex justify-content-center">Read Now</span>
@@ -644,7 +719,7 @@ if ($cats->have_posts()) : while ($cats->have_posts()) : $cats->the_post() ;
                 <p>Now more than ever we wanted a platform to allow finance professionals in the credit and accounts
                     receivables community to come together and safely interact and support each other. If you would like
                     to share your thought leadership with industry peers,</p>
-                <p>sign up for the <strong><a href="https://www.highradius.com/fintech-advocacy-network/">FinTech
+                <p>sign up for the <strong><a href="https://www.highradius.com/fintech-advocacy-network/" class="global-orange">FinTech
                             Advocacy Network</a></strong> and learn about upcoming opportunities to participate in
                     various types of engagements.</p>
             </div>

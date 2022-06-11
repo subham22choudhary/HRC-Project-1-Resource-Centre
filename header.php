@@ -12,6 +12,9 @@
     <title>Search the Order to Cash Knowledge Center</title>
   </head>
   <body>
+
+
+  <div class="container">
     <!-- Image and text -->
     <div class="ml-3">
 <nav class="navbar navbar-light bg-light">
@@ -20,7 +23,7 @@
 </nav>
 </div>
 
-<div class="container">
+
 
 
 
