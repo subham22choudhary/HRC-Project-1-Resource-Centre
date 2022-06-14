@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: RC Practice
+Template Name: RCC-1
 */
 
 get_header();
@@ -10,12 +10,24 @@ get_header();
 
 <style>
 /* Second-fold css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .grid-item {
     width: 25%;
     padding: 25px 0px;
     box-shadow: 15px 15px 10px -15px grey;
     border-radius: 32px;
     padding-left: 34px;
+}
+
+.exp-btn {
+    font-size: 15px;
+}
+
+.trend-text-2, .rc-font-2 {
+    font-size: 28px;
 }
 
 html {
@@ -118,16 +130,19 @@ li.footer-parent {
         position: relative;
         height: 110px;
       }
-      .upcoming{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: #fff;
-        color: #666666;
-        font-size: 14px;
-        padding: 6px;
-        font-weight: 500;
-      }
+
+
+      .upcoming {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    background-color: #fff;
+    color: #666666;
+    font-size: 14px;
+    padding: 15px;
+    font-weight: 500;
+}
+
       .date, .time{
           display: block;
       }
@@ -407,9 +422,9 @@ element.style {
     padding-left: 0px;
 }
 
-.grid {
-    left: 67px;
-}
+/* .grid {
+    left: 86px;
+} */
 
 .scrollbtn {
     display: none !important;
@@ -419,7 +434,103 @@ element.style {
     margin-top: 40px;
 }
 
+.button-group {
+    margin-left: -12px;
+}
 
+
+.buttn-move {
+    margin-left: 61px;
+}
+
+
+.o2c-card {
+    margin-left: -64px;
+}
+
+.trend-text-2 {
+    font-size: 20px;
+}
+
+
+.card-move {
+    width: 400px;
+}
+
+.rc-font {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.trend-text {
+    left: -61px;
+}
+
+.img-1, .img-2 {
+    width: 81%;
+    padding-left: 50px;
+    padding-right: 31px;
+    margin-top: 10px;
+}
+
+.date-text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title-text {
+    font-size: 20px;
+    margin-left: -42px;
+    margin-top: 15px;
+}
+
+.exp-btn {
+    margin-left: -44px;
+}
+
+.rc-font-2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -50px
+}
+
+
+.move-block-1 {
+    margin-left: 41px;
+}
+
+.font-title-2 {
+    font-size: 36px;
+    margin-top: 1rem;
+    margin-left: -110px;
+}
+
+.font-title-2-1 {
+    font-size: 26px;
+    margin-left: -107px;
+    color: #fc7500;
+    font-weight: 400;
+}
+
+.move-block-3 {
+    margin-left: -30px;
+}
+
+.upcoming{
+        position: absolute;
+    bottom: 0;
+    left: -29px;
+    background-color: #fff;
+    color: #666666;
+    font-size: 16px;
+    padding: 6px;
+    font-weight: 500;
+      }
+
+
+      .card-category-1 {
+    top: 44px;
+}
 
 }
 
@@ -432,6 +543,14 @@ element.style {
     padding: 24px 3px;
     margin-left: 17px !important;
     margin-right: 37px !important;
+}
+
+.rc-font {
+    font-size: 22px;
+    font-weight: 600;
+}
+.trend-text-2, .rc-font-2 {
+    font-size: 20px;
 }
 
 .grid {
@@ -568,22 +687,24 @@ element.style {
 <section class="first-fold">
         <div class="container">
         <div class="title">
-            <h1 class="global-orange">Order to Cash Knowledge Center</h1>
+            <h1 class="global-orange rc-font">Order to Cash Knowledge Center</h1>
+
         </div>
-        <div class="row mt-3">
+        <div class="row mt-3 move-block-1">
             <div class="col-lg-6 col-sm-12 col-md-7 animated fadeInLeft">
-                <h2 class="global-grey">Upcoming Webinars</h2>
+            <h2 class="global-grey rc-font-2">Upcoming Webinars</h2>
+                
                 <div class="item">
                     <div class="row pb-4">
                         <div class="col-md-3">
-                            <img class="justify-content-sm-center img-fluid" src="https://cdn-resources.highradius.com/resources/wp-content/uploads/2022/05/Receviables-Townhall-Logo.png" alt="webinar-logo" width="100%">
+                            <img class="justify-content-sm-center img-fluid img-1" src="https://cdn-resources.highradius.com/resources/wp-content/uploads/2022/05/Receviables-Townhall-Logo.png" alt="webinar-logo" width="100%">
                             <p class="text-center mt-3 mb-md-0 mb-2">
-                                <span class="date">23 JUNE 2022</span>
-                                <span class="time">11:30 AM CT</span>
+                                <span class="date date-text">23 JUNE 2022</span>
+                                <span class="time date-text">11:30 AM CT</span>
                             </p>
                         </div>
                         <div class="col-md-7 upcoming-card">
-                            <h3>Decoding AI for Accounts Receivables Automation</h3>
+                            <h3 class="title-text">Decoding AI for Accounts Receivables Automation</h3>
                             <div class="upcoming">Upcoming</div>
                             <a class="btn button" href="#">REGISTER NOW</a>
                         </div>
@@ -591,14 +712,14 @@ element.style {
 
                     <div class="row pb-4">
                         <div class="col-md-3">
-                            <img src="https://cdn-resources.highradius.com/resources/wp-content/uploads/2022/06/CFO-circle-LOGO.svg.gzip" alt="webinar-logo" width="80%">
+                            <img  class="justify-content-sm-center img-fluid img-2"  src="https://cdn-resources.highradius.com/resources/wp-content/uploads/2022/06/CFO-circle-LOGO.svg.gzip" alt="webinar-logo" width="80%">
                             <p class="text-center mt-3 mb-md-0 mb-2">
-                                <span class="date">16 JUNE 2022</span>
-                                <span class="time">10:30 AM CT</span>
+                                <span class="date date-text">16 JUNE 2022</span>
+                                <span class="time date-text">10:30 AM CT</span>
                             </p>
                         </div>
                         <div class="col-md-7 upcoming-card">
-                            <h3>How should the CFOs office overcome supply chain disruption</h3>
+                            <h3 class="title-text">How should the CFOs office overcome supply chain disruption</h3>
                             <div class="upcoming">Upcoming</div>
                             <a class="btn button" href="#">REGISTER NOW</a>
                         </div>
@@ -608,13 +729,13 @@ element.style {
 
 
 
-            <div class="col-lg-6 col-sm-12 col-md-5 animated fadeInRight">
-                <h2 class="global-grey">Trending Content</h2>
+            <div class="trend-text col-lg-6 col-sm-12 col-md-5 animated fadeInRight">
+                <h2 class="global-grey trend-text-2">Trending Content</h2>
                 <a href="https://radiance.highradius.com/" target="_blank">
                     <img src="https://cdn-resources.highradius.com/resources/wp-content/uploads/2022/01/Radiance_HighRadius-Resource-Section_Banner_1-2.jpg" class="img-fluid" style="border-radius:20px;">
                 </a>
             </div>
-          <a href="https://www.highradius.com/resources/" class="arrow-sign global-orange">EXPLORE OTHER SESSIONS</a>
+          <a href="https://www.highradius.com/resources/" class="exp-btn arrow-sign global-orange">EXPLORE OTHER SESSIONS</a>
 
             <div class="col-12 d-flex justify-content-center pb-3 scrollbtn">
                 <a href="#button-group-1">
@@ -633,20 +754,37 @@ element.style {
 
 
     <!-- phase-2 filter -->
-
+    <div class="button-group filter-button-group buttn-move" >
     <div id="button-group-1">
-        <h2>What are you looking for?</h2>
-        <h4 class="global-grey">Filter by Type:</h4>
+        <h2 class="font-title-2">What are you looking for?</h2>
+        <h4 class="global-grey font-title-2-1">Filter by Type:</h4>
     </div>
+
+
+
+    
+
+    <div class="button-group filter-button-group " >
+<button  class="btn-2" data-filter="*">All</button>
+<?php
+$categories = get_categories();
+    foreach ($categories as $category) {
+        echo '<button  class="btn-2" data-filter=".'.$category->slug.'">'.$category->name.'</button>';
+    }
+?>
+</div>
+
+
+<!-- 
 <div class="button-group filter-button-group " >
   <button data-filter="*" class="btn-2">All</button>
   <button data-filter=".blogs" class="btn-2">Blogs</button>
   <button data-filter=".ebooks" class="btn-2">Ebook</button>
   <button data-filter=".webinars" class="btn-2">Webinar</button>
-</div>
+</div> -->
 
 
-<div class="row pb-3 my-3">
+<div class="row pb-3 my-3 o2c-card">
                 <div class="col-lg-8 col-md-12 col-sm-12 animated fadeInLeft">
                     <div class="container">
                         <div class="row feature-card">
@@ -680,7 +818,7 @@ element.style {
 
 
 
-<div class="grid  d-flex justify-content-center">
+<div class="grid card-move d-flex justify-content-center">
 <?php
 
 $cats = new WP_Query(['post_type'=>'cats']);
@@ -712,7 +850,7 @@ if ($cats->have_posts()) : while ($cats->have_posts()) : $cats->the_post() ;
 </div>
 
 
-<section class=" third-fold section">
+<section class=" third-fold section move-block-3">
         <div class="container">
             <div class="row text-center d-flex justify-content-center">
                 <h2 class="text-">FinTech Advocacy Network</h2>

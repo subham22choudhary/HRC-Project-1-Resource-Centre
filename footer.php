@@ -1,109 +1,16 @@
     
 
-</div>
-    
-
-<section class="footer-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 my-5">
-                    <div>
-                        <ul>
-                            <li class="footer-parent"><a href="#">Autonomous receivables</a></li>
-                            <li><a href="#" class="text-size">Credit</a></li>
-                            <li><a href="#" class="text-size">EIPP</a></li>
-                            <li><a href="#" class="text-size">Cash App</a></li>
-                            <li><a href="#" class="text-size">Deductions</a></li>
-                            <li><a href="#" class="text-size">Collections</a></li>
-                            <li><a href="#" class="text-size">ERP Payment Gateway</a></li>
-                            <li><a href="#" class="text-size">dotONE Performance</a></li>
-                            <li><a href="#" class="text-size">Autonomous Software</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="footer-parent"><a href="#">RadiusOne A/R Suite</a></li>
-                            <li><a href="#" class="text-size">Collections App</a></li>
-                            <li><a href="#" class="text-size">Cash Reconciliation App</a></li>
-                            <li><a href="#" class="text-size">Credit Risk App</a></li>
-                            <li><a href="#" class="text-size">e-Invoicing App</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 my-5">
-                    <div>
-                        <ul>
-                            <li class="footer-parent"><a href="#">Autonomous Treasury</a></li>
-                            <li><a href="#" class="text-size">Cash Forecasting</a></li>
-                            <li><a href="#" class="text-size">Cash Management</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="footer-parent"><a href="#">Autonomous Accounting</a></li>
-                            <li><a href="#" class="text-size">Financial Close</a></li>
-                            <li><a href="#"class="text-size">Account Reconciliation</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="footer-parent"><a href="#">Resources</a></li>
-                            <li><a href="#" class="text-size">Order to Cash Resources</a></li>
-                            <li><a href="#"class="text-size">Treasury Knowledge Center</a></li>
-                            <li><a href="#" class="text-size">Order to Cash Automation Software</a></li>
-                            <li><a href="#" class="text-size">Accounts Receivable Automation Software</a></li>
-                            <li><a href="#"class="text-size">Product Tours</a></li>
-                        </ul>
-                    </div>
 
 
 
 
-                </div>
-                <div class="col-md-2 my-5">
-                    <ul>
-                        <li class="footer-parent"><a href="#">Others</a></li>
-                        <li><a href="#" class="text-size">Company Overview</a></li>
-                        <li><a href="#" class="text-size">Leadership Team</a></li>
-                        <li><a href="#" class="text-size">Culture</a></li>
-                        <li><a href="#" class="text-size">News</a></li>
-                        <li><a href="#" class="text-size">Events</a></li>
-                        <li><a href="#" class="text-size">Partners</a></li>
-                        <li><a href="#" class="text-size">Careers</a></li>
-                        <li><a href="#" class="text-size">Glossary</a></li>
-                        <li><a href="#" class="text-size">Pricing</a></li>
-                        <li><a href="#" class="text-size">Radiance On The Road</a></li>
-                        <li><a href="#" class="text-size">Contact Us</a></li>
-                        <li><a href="#" class="text-size">Privacy Policy</a></li>
-                    </ul>
-
-                </div>
-                <div class="col-md-3 my-5">
-                    <div>
-                        <img src="https://cdn-resources.highradius.com/resources/wp-content/themes/Trifecta-Resources/images/HighRadius-Trifecta-Footer-2020.svg.gzip"
-                            alt="" class="img-fluid">
-                        <div class="text-color copyright mb-3">© 2022 HighRadius • All rights reserved</div>
-                        <img src="https://cdn.highradius.com/wp-content/uploads/2022/02/social-media-footer-icons.svg"
-                            alt="" class="img-fluid">
-                    </div>
-                    <div class="footer-text-color mt-5">
-                        <p class="p-tag">Corporate Headquarters</p>
-                        <p class="p-tag">HighRadius Corporation</p>
-                        <p class="p-tag">Westlake 4 Building (BP Campus)</p>
-                        <p class="p-tag">200 Westlake Park Blvd.</p>
-                        <p class="p-tag">8th floor</p>
-                        <p class="p-tag">Houston, TX 77079</p>
-                    </div>
-                    
     <div class="d-flex justify-content-end section">
         <img src="https://cdn.highradius.com/wp-content/uploads/2021/10/scroll_top_icon.png" onclick="topFunction()" id="myBtn" class="click-btn img-fluid d-flex justify-content-center">
     
     </div> 
-                </div>
-            </div>
-        </div>
-    </section>
 
+
+    </div>
 
     
     <!-- Optional JavaScript -->
